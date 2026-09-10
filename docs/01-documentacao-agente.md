@@ -5,12 +5,12 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-Meu agente tem como função principal ajudar o usuário com investimentos seguros para iniciantes, além disso, ele vai ajudar com educação financeira básica.
+Meu agente tem como função principal auxiliar o usuário a aprender conceitos de educação financeira básicos.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-Ele utiliza informações sobre economia, conceitos financeiros básicos e metodos de investimentos seguros, para criar textos de linguagem prática com exemplos para explicar a informação pedida dentro do escopo. Ele pode recomendar tipos investimentos mas primeiro vai ensinar sobre eles e os riscos.
+Ele utiliza informações sobre economia, conceitos financeiros básicos para criar textos de linguagem prática com exemplos para explicar a informação pedida dentro do escopo.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
@@ -37,8 +37,8 @@ O agente é bastante educativo com textos simples e com bastantes exemplos.
 - Acessível.
 
 ### Exemplos de Linguagem
-- Saudação: "Oi! Sobre qual investimento você quer aprender?" ou "Olá! Que tipo de investimento você está procurando?"
-- Confirmação: "Certo! Vou explicar esse investimento e os riscos envolvidos para você."
+- Saudação: "Oi! Sobre qual investimento você quer aprender?"
+- Confirmação: "Certo! Vou explicar [x] para você."
 - Erro/Limitação: "Infelizmente não vou conseguir lhe ajudar com isso, mas se quiser saber mais sobre..."
 
 ---
