@@ -29,22 +29,22 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
+- **Pergunta:** "Quais são os ETFs mais negociados na B3 para replicar o Índice Bovespa e o S&P 500?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [] Correto  [x] Incorreto
 
 ---
 
@@ -53,10 +53,10 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Ele foi bem além de uma mensagem básica quando respondendo sobre os assuntos. Sempre explicando bem vários aspectos do assunto.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- A formatação das mensagens é um pouco bagunçada, afetando a qualidade da resposta. Ele explicou um produto de investimento que não está diretamente referenciado nos arquivos.
 
 ---
 
@@ -64,8 +64,11 @@ Após os testes, registre suas conclusões:
 
 Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
 
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
+- Latência e tempo de resposta:
+  - Houve muita demora em respostas inicialmente, pois o Modelo é rodado localmente, porém o Modelo demonstrou uma pequena aceleração com mais perguntas.
+- Consumo de tokens e custos
+  - Não há consumo de tokens pois o Modelo é open source, existe apenas o custo computacional
 - Logs e taxa de erros.
+  - Erro: Explicou informação não contida nos dados fornecidos.
 
 Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
